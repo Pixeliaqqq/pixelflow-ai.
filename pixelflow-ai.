@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelFlow AI | Edição Pro</title>
+    <meta name="description" content="Edite fotos e vídeos com IA em segundos.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-black text-white antialiased">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <div class="text-2xl font-black tracking-tighter text-indigo-500">PIXEL<span class="text-white">FLOW</span></div>
+        <button class="bg-indigo-600 hover:bg-indigo-700 px-5 py-2 rounded-full text-sm font-bold transition">ENTRAR</button>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 text-center">
+        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+            A inteligência artificial que <span class="text-indigo-500">edita por você.</span>
+        </h1>
+        <p class="text-gray-400 text-lg mb-10">Remova fundos, melhore a resolução e transforme vídeos simples em conteúdo viral com um clique.</p>
+
+        <div class="glass border-2 border-dashed border-gray-700 rounded-3xl p-12 mb-8 hover:border-indigo-500 transition-colors group">
+            <div class="text-5xl mb-4 group-hover:scale-110 transition-transform">✨</div>
+            <h2 class="text-xl font-bold mb-2">Envie sua foto ou vídeo</h2>
+            <p class="text-gray-500 text-sm mb-6">Comece sua edição gratuita agora mesmo</p>
+            <input type="file" id="upload" class="hidden">
+            <label for="upload" class="gradient-bg px-8 py-3 rounded-xl font-bold cursor-pointer shadow-lg shadow-indigo-500/20">
+                Selecionar arquivo
+            </label>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm text-gray-500">
+            <div>⚡ Processamento Instantâneo</div>
+            <div>🤖 IAs de Última Geração</div>
+            <div>🎬 Suporte a 4K</div>
+        </div>
+    </main>
+
+    <footer class="mt-20 py-8 border-t border-gray-900 text-center text-gray-600 text-xs">
+        &copy; 2026 PIXELFLOW AI - O FUTURO DA EDIÇÃO
+    </footer>
+
+</body>
+</html>
